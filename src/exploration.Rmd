@@ -1,0 +1,41 @@
+Exploration visuelle des données
+========================================================
+Introduction: les grands objectifs
+----------------------------------------------------------
+
+L'objectif de cette exploration est de voir comment sont distribuées certaines variables d'intérêt. 
+
+Dans un premier temps (I), on se concentrera sur le scrutin, notamment:
+
+* 1.20 Election male suffrage in practice: v2elmalsuf
+* 1.21 Election female suffrage in practice: v2elfemsuf
+* 1.22 Election suffrage in practice: v2elsufrag
+* 1.24 Election other voting irregularities: v2elirreg
+* 1.33 Elections are free and fair: v2elfrfairs
+* 1.34 Election VAP turnout: v2elvaptrn
+* 1.38 Election losers accept results: v2elaccep
+
+Dans un second temps (II), on explorera particulièrement:
+ 1. la relation entre le caractère libre et juste d'une élection et le vote de la population adulte
+ 2. la relation entre le caractère juste  d'une élection et la présence d'irrégularités (comme façon de contrôler les données)
+ 3. la relation entre le caractère juste des élections et l'acceptation de leurs résultats par les perdants
+ 4. les disparités entre le suffrage effectif des hommes et des femmes
+ 
+Finalement (III), on explorera comment se distribuent les variables liées à l'organisation de la société civile
+
+[À DÉFINIR]
+
+
+I. Exploration visuelle des variables liées aux suffrages
+----------------------------------------------------------
+
+
+
+
+```{r}
+require(knitr) 
+opts_knit$set(root.dir="..")
+
+```
+
+
