@@ -29,6 +29,18 @@ Finalement (III), on explorera comment se distribuent les variables liées à l'
 I. Exploration visuelle des variables liées aux suffrages
 ----------------------------------------------------------
 
+1. Suffrages masculin et féminin en pratique (1.20, 1.21 et 1.22)
+```{r}
+summary(vdem.db$v2elfemsuf)
+summary(vdem.db$v2elmalsuf)
+hist(vdem.db$v2elfemsuf)
+hist(vdem.db$v2elmalsuf)
+vote_fem <- na.omit(vdem.db[vdem.db$v2elfemsuf > 0, "v2elfemsuf"])
+vote_mas <- na.omit(vdem.db[vdem.db$v2elmalsuf > 0, "v2elfemsuf"])
+hist(vote_fem)
+hist(vote_mas)
+```
+
 
 
 
